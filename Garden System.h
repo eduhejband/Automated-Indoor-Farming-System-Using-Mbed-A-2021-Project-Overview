@@ -10,11 +10,8 @@ DigitalOut botao (p9);
 
 int main() {
     
-        
         printf ("\n\nIniciaremos o controle de temperatura e ventilação do ambiente\n");
         
-        
-      
         if(botao == 0) {
             
             lcd.cls();
@@ -90,24 +87,12 @@ int main() {
                       lcd.locate(3, 23);
                       lcd.printf("Desligado", aquecedor);
                       wait (100.0);
-                      }
-                        
-                      
+                      }     
                     }
                 }
-            }    
-                
-                
-                
-                
-            }
-                
-
-        
-                
-                
-            
+            }       
+          }       
        }
-            }
+    }
     return 0;
 }
